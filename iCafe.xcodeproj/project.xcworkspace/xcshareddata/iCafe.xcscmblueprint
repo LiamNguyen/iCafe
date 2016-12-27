@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AA86D5C6A77DB9D05D7C1E5FBCA383B882E85E43",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AA86D5C6A77DB9D05D7C1E5FBCA383B882E85E43" : 9223372036854775807,
+    "41F28B1CF8D0C729D964D06CCA1217F8805FC1FB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E7ABB351-A589-4174-85B9-A147A552526D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AA86D5C6A77DB9D05D7C1E5FBCA383B882E85E43" : "Swift%20Project\/",
+    "41F28B1CF8D0C729D964D06CCA1217F8805FC1FB" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iCafe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iCafe\/iCafe.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiamNguyen\/Gasoline_Consumption_Android_Final.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41F28B1CF8D0C729D964D06CCA1217F8805FC1FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiamNguyen\/IOS_Applications.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA86D5C6A77DB9D05D7C1E5FBCA383B882E85E43"
+    }
+  ]
+}

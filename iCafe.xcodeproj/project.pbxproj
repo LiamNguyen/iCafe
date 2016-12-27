@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED89DE7D1D979D2000C0293E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DE7C1D979D2000C0293E /* AppDelegate.swift */; };
+		ED89DE811D979D2000C0293E /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DE801D979D2000C0293E /* CouponViewController.swift */; };
+		ED89DE841D979D2000C0293E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED89DE821D979D2000C0293E /* Main.storyboard */; };
+		ED89DE861D979D2000C0293E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED89DE851D979D2000C0293E /* Assets.xcassets */; };
+		ED89DE891D979D2000C0293E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED89DE871D979D2000C0293E /* LaunchScreen.storyboard */; };
+		ED89DE941D979D2000C0293E /* iCafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DE931D979D2000C0293E /* iCafeTests.swift */; };
+		ED89DE9F1D979D2000C0293E /* iCafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DE9E1D979D2000C0293E /* iCafeUITests.swift */; };
+		ED89DEC41D982F0400C0293E /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DEC31D982F0400C0293E /* OrderTableViewCell.swift */; };
+		ED89DEC61D98346200C0293E /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DEC51D98346200C0293E /* OrderTableViewController.swift */; };
+		ED89DEC81D9838C100C0293E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89DEC71D9838C100C0293E /* Order.swift */; };
+		EDC570C01D9923C900299741 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC570BF1D9923C900299741 /* CartTableViewCell.swift */; };
+		EDC570C21D99242700299741 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC570C11D99242700299741 /* CartTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED89DE901D979D2000C0293E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED89DE711D979D1F00C0293E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED89DE781D979D1F00C0293E;
+			remoteInfo = iCafe;
+		};
+		ED89DE9B1D979D2000C0293E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED89DE711D979D1F00C0293E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED89DE781D979D1F00C0293E;
+			remoteInfo = iCafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED89DE791D979D2000C0293E /* iCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED89DE7C1D979D2000C0293E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED89DE801D979D2000C0293E /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		ED89DE831D979D2000C0293E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED89DE851D979D2000C0293E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED89DE881D979D2000C0293E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED89DE8A1D979D2000C0293E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED89DE8F1D979D2000C0293E /* iCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED89DE931D979D2000C0293E /* iCafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCafeTests.swift; sourceTree = "<group>"; };
+		ED89DE951D979D2000C0293E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED89DE9A1D979D2000C0293E /* iCafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED89DE9E1D979D2000C0293E /* iCafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCafeUITests.swift; sourceTree = "<group>"; };
+		ED89DEA01D979D2000C0293E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED89DEC31D982F0400C0293E /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		ED89DEC51D98346200C0293E /* OrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		ED89DEC71D9838C100C0293E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EDC570BF1D9923C900299741 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		EDC570C11D99242700299741 /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartTableViewController.swift; path = ../CartTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED89DE761D979D1F00C0293E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED89DE8C1D979D2000C0293E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED89DE971D979D2000C0293E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED89DE701D979D1F00C0293E = {
+			isa = PBXGroup;
+			children = (
+				ED89DE7B1D979D2000C0293E /* iCafe */,
+				ED89DE921D979D2000C0293E /* iCafeTests */,
+				ED89DE9D1D979D2000C0293E /* iCafeUITests */,
+				ED89DE7A1D979D2000C0293E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED89DE7A1D979D2000C0293E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED89DE791D979D2000C0293E /* iCafe.app */,
+				ED89DE8F1D979D2000C0293E /* iCafeTests.xctest */,
+				ED89DE9A1D979D2000C0293E /* iCafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED89DE7B1D979D2000C0293E /* iCafe */ = {
+			isa = PBXGroup;
+			children = (
+				ED89DE7C1D979D2000C0293E /* AppDelegate.swift */,
+				ED89DEC51D98346200C0293E /* OrderTableViewController.swift */,
+				EDC570C11D99242700299741 /* CartTableViewController.swift */,
+				ED89DE801D979D2000C0293E /* CouponViewController.swift */,
+				ED89DE821D979D2000C0293E /* Main.storyboard */,
+				ED89DEC71D9838C100C0293E /* Order.swift */,
+				ED89DEC31D982F0400C0293E /* OrderTableViewCell.swift */,
+				EDC570BF1D9923C900299741 /* CartTableViewCell.swift */,
+				ED89DE851D979D2000C0293E /* Assets.xcassets */,
+				ED89DE871D979D2000C0293E /* LaunchScreen.storyboard */,
+				ED89DE8A1D979D2000C0293E /* Info.plist */,
+			);
+			path = iCafe;
+			sourceTree = "<group>";
+		};
+		ED89DE921D979D2000C0293E /* iCafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED89DE931D979D2000C0293E /* iCafeTests.swift */,
+				ED89DE951D979D2000C0293E /* Info.plist */,
+			);
+			path = iCafeTests;
+			sourceTree = "<group>";
+		};
+		ED89DE9D1D979D2000C0293E /* iCafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED89DE9E1D979D2000C0293E /* iCafeUITests.swift */,
+				ED89DEA01D979D2000C0293E /* Info.plist */,
+			);
+			path = iCafeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED89DE781D979D1F00C0293E /* iCafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED89DEA31D979D2000C0293E /* Build configuration list for PBXNativeTarget "iCafe" */;
+			buildPhases = (
+				ED89DE751D979D1F00C0293E /* Sources */,
+				ED89DE761D979D1F00C0293E /* Frameworks */,
+				ED89DE771D979D1F00C0293E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCafe;
+			productName = iCafe;
+			productReference = ED89DE791D979D2000C0293E /* iCafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED89DE8E1D979D2000C0293E /* iCafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED89DEA61D979D2000C0293E /* Build configuration list for PBXNativeTarget "iCafeTests" */;
+			buildPhases = (
+				ED89DE8B1D979D2000C0293E /* Sources */,
+				ED89DE8C1D979D2000C0293E /* Frameworks */,
+				ED89DE8D1D979D2000C0293E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED89DE911D979D2000C0293E /* PBXTargetDependency */,
+			);
+			name = iCafeTests;
+			productName = iCafeTests;
+			productReference = ED89DE8F1D979D2000C0293E /* iCafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED89DE991D979D2000C0293E /* iCafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED89DEA91D979D2000C0293E /* Build configuration list for PBXNativeTarget "iCafeUITests" */;
+			buildPhases = (
+				ED89DE961D979D2000C0293E /* Sources */,
+				ED89DE971D979D2000C0293E /* Frameworks */,
+				ED89DE981D979D2000C0293E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED89DE9C1D979D2000C0293E /* PBXTargetDependency */,
+			);
+			name = iCafeUITests;
+			productName = iCafeUITests;
+			productReference = ED89DE9A1D979D2000C0293E /* iCafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED89DE711D979D1F00C0293E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HTGSoft;
+				TargetAttributes = {
+					ED89DE781D979D1F00C0293E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 86M37DGEMQ;
+						ProvisioningStyle = Automatic;
+					};
+					ED89DE8E1D979D2000C0293E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 86M37DGEMQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED89DE781D979D1F00C0293E;
+					};
+					ED89DE991D979D2000C0293E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 86M37DGEMQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED89DE781D979D1F00C0293E;
+					};
+				};
+			};
+			buildConfigurationList = ED89DE741D979D1F00C0293E /* Build configuration list for PBXProject "iCafe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED89DE701D979D1F00C0293E;
+			productRefGroup = ED89DE7A1D979D2000C0293E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED89DE781D979D1F00C0293E /* iCafe */,
+				ED89DE8E1D979D2000C0293E /* iCafeTests */,
+				ED89DE991D979D2000C0293E /* iCafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED89DE771D979D1F00C0293E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED89DE891D979D2000C0293E /* LaunchScreen.storyboard in Resources */,
+				ED89DE861D979D2000C0293E /* Assets.xcassets in Resources */,
+				ED89DE841D979D2000C0293E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED89DE8D1D979D2000C0293E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED89DE981D979D2000C0293E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED89DE751D979D1F00C0293E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC570C01D9923C900299741 /* CartTableViewCell.swift in Sources */,
+				ED89DE811D979D2000C0293E /* CouponViewController.swift in Sources */,
+				EDC570C21D99242700299741 /* CartTableViewController.swift in Sources */,
+				ED89DEC61D98346200C0293E /* OrderTableViewController.swift in Sources */,
+				ED89DEC81D9838C100C0293E /* Order.swift in Sources */,
+				ED89DE7D1D979D2000C0293E /* AppDelegate.swift in Sources */,
+				ED89DEC41D982F0400C0293E /* OrderTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED89DE8B1D979D2000C0293E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED89DE941D979D2000C0293E /* iCafeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED89DE961D979D2000C0293E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED89DE9F1D979D2000C0293E /* iCafeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED89DE911D979D2000C0293E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED89DE781D979D1F00C0293E /* iCafe */;
+			targetProxy = ED89DE901D979D2000C0293E /* PBXContainerItemProxy */;
+		};
+		ED89DE9C1D979D2000C0293E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED89DE781D979D1F00C0293E /* iCafe */;
+			targetProxy = ED89DE9B1D979D2000C0293E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED89DE821D979D2000C0293E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED89DE831D979D2000C0293E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED89DE871D979D2000C0293E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED89DE881D979D2000C0293E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED89DEA11D979D2000C0293E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED89DEA21D979D2000C0293E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED89DEA41D979D2000C0293E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86M37DGEMQ;
+				INFOPLIST_FILE = iCafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htgsoft.iCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED89DEA51D979D2000C0293E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86M37DGEMQ;
+				INFOPLIST_FILE = iCafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htgsoft.iCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED89DEA71D979D2000C0293E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 86M37DGEMQ;
+				INFOPLIST_FILE = iCafeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htgsoft.iCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCafe.app/iCafe";
+			};
+			name = Debug;
+		};
+		ED89DEA81D979D2000C0293E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 86M37DGEMQ;
+				INFOPLIST_FILE = iCafeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htgsoft.iCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCafe.app/iCafe";
+			};
+			name = Release;
+		};
+		ED89DEAA1D979D2000C0293E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 86M37DGEMQ;
+				INFOPLIST_FILE = iCafeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htgsoft.iCafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iCafe;
+			};
+			name = Debug;
+		};
+		ED89DEAB1D979D2000C0293E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 86M37DGEMQ;
+				INFOPLIST_FILE = iCafeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htgsoft.iCafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iCafe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED89DE741D979D1F00C0293E /* Build configuration list for PBXProject "iCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED89DEA11D979D2000C0293E /* Debug */,
+				ED89DEA21D979D2000C0293E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED89DEA31D979D2000C0293E /* Build configuration list for PBXNativeTarget "iCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED89DEA41D979D2000C0293E /* Debug */,
+				ED89DEA51D979D2000C0293E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED89DEA61D979D2000C0293E /* Build configuration list for PBXNativeTarget "iCafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED89DEA71D979D2000C0293E /* Debug */,
+				ED89DEA81D979D2000C0293E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED89DEA91D979D2000C0293E /* Build configuration list for PBXNativeTarget "iCafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED89DEAA1D979D2000C0293E /* Debug */,
+				ED89DEAB1D979D2000C0293E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED89DE711D979D1F00C0293E /* Project object */;
+}
